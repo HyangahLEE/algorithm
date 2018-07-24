@@ -1,0 +1,38 @@
+package Main;
+
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		int c= sc.nextInt();
+		double sum = 0;
+		double avg= 0;
+		double cnt=0;
+		
+		for (int i = 0; i < c; i++) {
+			int n =sc.nextInt();
+			double m[] = new double[n];
+			for (int j = 0; j < m.length; j++) {
+				m[j] = sc.nextInt();
+				sum +=m[j];
+				avg = sum/n;
+			}
+			for (int j = 0; j < m.length; j++) {
+			if(m[j]>avg) {
+					cnt+=1;
+				}
+			}
+			System.out.printf("%.3f%%\n",(cnt/(double)n)*100);
+			cnt=0;			
+			avg= 0;
+			sum =0;
+			
+		}
+	}
+
+
+}
+
+
