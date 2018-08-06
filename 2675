@@ -1,0 +1,32 @@
+package Main;
+
+import java.util.*;
+
+public class main01 {
+
+	public static void main(String[] args) {
+	int cnt = 0;
+		Scanner sc= new Scanner(System.in);
+		int t= sc.nextInt();
+		for (int i = 0; i <t; i++) {
+			int r = sc.nextInt();
+			String s = sc.next();
+			for (int j = 0; j <s.length(); j++) {
+				for (int k = 0; k <r; k++) {
+					System.out.print(s.charAt(cnt));
+				}
+				cnt++;
+					}
+			System.out.println();
+		cnt=0;
+			
+		}
+		
+			
+	
+		
+	}
+
+}
+
+
