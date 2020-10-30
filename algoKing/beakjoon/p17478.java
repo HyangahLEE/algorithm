@@ -1,0 +1,10 @@
+package beakjoon;
+
+public class p17478 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
