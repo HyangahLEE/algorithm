@@ -7,11 +7,11 @@ OX퀴즈의 결과가 주어졌을 때, 점수를 구하는 프로그램을 작성하시오.
  * 
  * */
 
-package beakjoon;
+package 문자열;
 
 import java.util.Scanner;
 
-public class p8958 {
+public class p8958_OX퀴즈 {
 	static Scanner sc = new Scanner(System.in);
 	public static void main(String[] args){
 		int num = sc.nextInt();

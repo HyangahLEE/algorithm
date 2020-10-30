@@ -17,14 +17,14 @@
  * 
  * */
 
-package beakjoon;
+package 백트레킹;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class P15650 {
+public class P15650_N과M2{
 	static int n, m;
 	
 	static void NM2(int cnt, String str, int start) {
